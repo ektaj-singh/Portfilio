@@ -33,7 +33,8 @@
 
 .main {
   background-color: bisque;
-  width: 90vw;
+  width: 120vw;
+  height: 120vh;
   font-family: 'Trirong', serif;
 }
 
@@ -93,10 +94,12 @@
 
 .contactpage {
   font-family: 'Trirong', serif;
+  margin: 0 88px;
 }
 
 .aboutme {
   font-family: 'Trirong', serif;
+  margin: 0 88px;
 }
 
 .aboutme h1 {
@@ -109,6 +112,7 @@
 
 .projectpage {
   font-family: 'Trirong', serif;
+  margin: 0 88px;
 }
 
 .parkingT{
