@@ -7,11 +7,12 @@
 }
 
 .sidebar {
-  background-color: rgb(148, 148, 148);
-  width: 400px;
+  position: absolute;
+  background-color: #949494;
+  /* width: 400px; */
   font-family: 'Trirong', serif;
   height: 150vh;
-  
+  transition: transform 0.3s ease-in;
 }
 
 .sidebar nav {
@@ -104,6 +105,44 @@
 
 .aboutme h2 {
   font-size: 15.5px;
+}
+
+.projectpage {
+  font-family: 'Trirong', serif;
+}
+
+.parkingT{
+  height: 30vh;
+  width: 30vw;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.youW {
+  height: 30vh;
+  width: 30vw;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.sidebarGo {
+transform: translate(-443px, 0px) ;
+position: absolute;
+}
+
+.hambuger {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+
+.cross {
+  margin-left: 190px;
 }
 
 
