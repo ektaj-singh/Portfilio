@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,100;1,100&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background-color: rgb(148, 148, 148);
+  width: 400px;
+  font-family: 'Trirong', serif;
+  height: 150vh;
+  
+}
+
+.sidebar nav {
+  padding: 45px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px, 0px;
+}
+
+.sidebar nav li a {
+ text-decoration: none;
+ color: black;
+}
+
+
+.main {
+  background-color: bisque;
+  width: 90vw;
+  font-family: 'Trirong', serif;
+}
+
+.container {
+ display: flex;
+}
+
+.infoContainer {
+  height: 58vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Trirong', serif;
+}
+
+.hello {
+  font-size: 65px;
+}
+
+.name {
+ font-size: 50px;
+ font-weight: bold;
+}
+
+.about {
+ font-size: 40px;
+}
+
+
+.buttons button{
+  padding: 9 px 14px; 
+  border-radius: 10px; 
+  color: white;
+  background-color: rgb(148, 148, 148);
+  font-family: 'Trirong', serif;
+  font-size: 22px;
+  margin: 4px 6px;
+  cursor: pointer;
+}
+
+.buttons button:hover { 
+  background-color:white;
+  color: rgb(148, 148, 148);
+}
+
+.devPic img {
+  height: 58vh;
+  border-radius: 10px;
+}
+
+.contactpage {
+  font-family: 'Trirong', serif;
+}
+
+.aboutme {
+  font-family: 'Trirong', serif;
+}
+
+.aboutme h1 {
+   font-size: 50px;
+}
+
+.aboutme h2 {
+  font-size: 15.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
