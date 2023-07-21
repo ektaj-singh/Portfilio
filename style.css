@@ -110,28 +110,29 @@
   font-size: 15.5px;
 }
 
+.titleP {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
 .projectpage {
   font-family: 'Trirong', serif;
   margin: 0 88px;
-}
-
-.parkingT{
-  height: 30vh;
-  width: 30vw;
-  border-radius: 10px;
   display: flex;
   justify-content: center;
-  flex-direction: column;
 }
 
-.youW {
-  height: 30vh;
-  width: 30vw;
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+
+.flexB {
+  background-color: bisque;
+  border: 2px solid black;
+  margin: 88px;
+  padding: 19px;
+  width: 40vw;
+  height: 75vh;
 }
+
 
 .sidebarGo {
 transform: translate(-443px, 0px) ;
@@ -148,6 +149,8 @@ position: absolute;
 .cross {
   margin-left: 190px;
 }
+
+
 
 
 
