@@ -33,8 +33,8 @@
 
 .main {
   background-color: bisque;
-  width: 120vw;
-  height: 120vh;
+  width: 100%;
+  height: 100%;
   font-family: 'Trirong', serif;
 }
 
@@ -127,10 +127,28 @@
 .flexB {
   background-color: bisque;
   border: 2px solid black;
+  border-radius: 10px;
   margin: 88px;
   padding: 19px;
-  width: 40vw;
-  height: 75vh;
+  width: 80vw;
+  height: 40%;
+}
+
+.project {
+  font-family: 'Trirong', serif;
+  margin: 0 88px;
+  display: flex;
+  justify-content: center;
+}
+
+.kolachi {
+  background-color: bisque;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 88px;
+  padding: 19px;
+  width: 18vw;
+  height: 60%;
 }
 
 
